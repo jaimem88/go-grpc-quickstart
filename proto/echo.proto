@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+package ap.echo.v1;
+option go_package = "github.com/jaimemartinez88/go-grpc-quickstart/proto;echo";
+
+service Echo{
+    rpc Echo(Request) returns (Response);
+}
+
+message Request{
+    string message = 1;
+}
+
+message Response {
+    string message = 1;
+}
