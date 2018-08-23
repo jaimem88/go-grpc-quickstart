@@ -1,4 +1,4 @@
-# Go Workshop: gRPC quickstatt
+# Go Workshop: gRPC quickstart
 
 Slides [here](here)
 
