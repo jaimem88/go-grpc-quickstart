@@ -1,12 +1,5 @@
 package quickstart
 
-// func newClient() {
-// 	conn, _ := grpc.Dial("localhost:50051", grpc.WithInsecure())
-// 	// error handling omitted
-// 	client := pb.NewGreeterClient(conn)
-// 	// ...
-// }
-
 import (
 	"context"
 	"fmt"
